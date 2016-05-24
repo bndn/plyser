@@ -1,9 +1,12 @@
 {
     "version": "0.0.0",
-    "description": "",
+    "description": "A library for parsing and working with PLY-formatted files",
     "authors": [
+        "Kasper Kronborg Isager <kasi@itu.dk>"
     ],
     "tags": [
+        "ply",
+        "parser"
     ],
     "projectUrl": "https://github.itu.dk/bndn/plyser",
     "licenseUrl": "https://github.itu.dk/bndn/plyser/blob/master/LICENSE.md",
@@ -13,10 +16,6 @@
             "type": "build",
             "version": "1.0.0-*"
         }
-    },
-
-    "commands": {
-        "run": "run"
     },
 
     "frameworks": {
@@ -30,7 +29,8 @@
     },
     "fsharp": {
         "files": [
-            "Program.fs"
+            "Plyser.fsi",
+            "Plyser.fs"
         ]
     }
 }
